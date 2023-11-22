@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+ 
+}
+
+body{
+    background-color:white;
+    width: 100%;
+    height: 100%;
+    top: 2%;
+    right: 0;
+}
+
+.header .content{
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    background-image: url(images/uber\ eats1.webp);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-position:center;
+
+}
+    .fa-bars{
+        font-size: 20px;
+        margin-left: -30px;
+        padding-left: 80px;
+    }
+   
+
+  
+.header svg{
+    padding: 30px 80px;
+    padding-left: 35px;
+}
+
+.signin{
+    width: 100px;
+    height: 45px;
+    background: white;
+    color: black;
+    border-radius: 30px;
+    font-size: 11px;
+    margin-left: 700px;
+    display: flex;
+    font-family: Arial, sans-serif;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-user{
+    font-size: 20px;
+}
+
+.signup{
+    background-color: black;
+    color: white;
+    width: 90px;
+    text-align: center;
+    margin-left: 15px;
+    padding-top: 15px;
+    height: 35px;
+    border-radius: 25px;
+    font-size: 11px;
+}
+    
+.head h1{
+    margin-top: 125px;
+    margin-left: 47px;
+    font-size: 50px;
+}
+
+
+.box{
+    display: flex;
+    margin-top: 40px;
+}
+.box .f-box{
+
+    width: 570px;
+    height: 55px;
+    background: white;
+    margin-left: 20px;
+}
+
+.box button{
+    width: 140px;
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    margin-left: 10px;
+    height: 56px;
+}
+
+.box i{
+    font-size: 20px;
+    padding: 15px;
+}
+
+.box input{
+    width: 520px;
+    height: 55px;
+    border: 0px;
+}
+.box select{
+    border: 0px;
+    width: 200px;
+    margin-left: 20px;
+}
+.orsignin {
+    margin-left: 30px;
+    background: none;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.section-img{
+    background-color: white;
+    color: black;
+    display: flex;
+}
+
+
+.img-1{
+    padding-top: 80px; 
+    background-color: white;
+    color: black;
+    height: 224px;
+    display: flex;
+    width: 100%;    
+    margin-left: 0px;
+
+}
+.img-2{
+    padding-top: 80px; 
+    background-color: white;
+    color: black;
+    height: 224px;
+    display: flex;
+    width: 100%;  
+}
+.img-3{
+    padding-top: 80px; 
+    background-color: white;
+    color: black;
+    height: 224px;
+    display: flex;
+    width: 100%;    
+}
+.img-1 p{
+    margin-top: 230px;
+    margin-left: -400px;
+    font-size: 29px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.img-1 p1{
+    margin-top: 260px;
+    margin-left: -265px;   
+}
+.img-2 p{
+    margin-top: 230px;
+    margin-left: -400px;
+    font-size: 29px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.img-2 p1{
+    margin-top: 260px;
+    margin-left: -325px;
+}
+.img-3 p{
+    margin-top: 225px;
+    margin-left: -400px;
+    font-size: 29px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.img-3 p1{
+    margin-top: 254px;
+    margin-left: -278px;  
+}
+
+.section-3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.footer{
+    height: 400px;
+    width: 94%;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.headtext{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+
+    
+}
+
+ .f1{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-template-rows: repeat(8 , 1fr);
+    gap: 30px;
+    grid-auto-flow: column;
+ } 
+
+.h1 a{
+    text-decoration: none;
+     color: black;
+}
+
+.footer2{
+    margin-top: 100px;
+}
+.content2{
+    margin-left: 40px;
+}
+
+.g1{
+
+    display:grid;
+    grid-template-columns: repeat(2, 1fr );
+    grid-template-rows: repeat(6,);
+    gap: 30px;
+    padding-right: 150px;
+}
+.k1 a{
+    text-decoration:none;
+    color: black;
+}
+.apple{
+width: 130px;
+}
+.googleplay{
+width: 130px;
+}
+
+.mainbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.img{
+    width: 350px;
+    margin-top: 170px;
+}
+.icons-3{
+    display: flex;
+    justify-content:space-between;
+    width: 100px;
+    margin-left: 40px;
+    display: inline;
+
+}
+
+hr{
+    margin-top: 30px;
+}
+
+.footer3{
+    margin: 50px 0px;
+}
+
+.sec1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec1 .icon{
+    width: 30%;
+    font-size: 25px;
+    padding-left: 40px;
+}
+
+.sec1 .icon i{
+    padding-left: 30px;
+}
+
+.sec1 .text{
+    width: 70%;
+    padding-left: 400px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.sec1 .text a{
+    padding-left: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.sec2{
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+}
